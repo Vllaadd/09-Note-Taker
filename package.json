@@ -1,0 +1,27 @@
+{
+  "name": "09-Note-Taker",
+  "version": "1.0.0",
+  "description": "# Overview      This is an application where users can create, view and delete notes using express backend. The note data are retrieved from JSON file.",
+  "main": "server.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vllaadd/09-Note-Taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vllaadd/09-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Vllaadd/09-Note-Taker#readme"
+}
