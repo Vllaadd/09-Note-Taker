@@ -1,21 +1,20 @@
-// require dependencies
+//===DEPENDENCIES========================================
 const express = require('express') 
 const app = express()
-
-//set up the port 
+ 
+//===SET UP THE PORT=====================================
 const PORT = process.env.PORT || 8080;
 
-//set up the data parsing
+//===SET UP THE DATA PARSING=============================
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(express.static('public'));
 
-// require routes 
+//===ROUTES==============================================
 require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
 
-
-// get server running 
+//===GET SERVER RUNNING==================================
 app.listen(PORT, function(){
     console.log('Listneing on the port: ' + PORT);
 })
