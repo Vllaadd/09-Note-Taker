@@ -1,5 +1,5 @@
 {
-  "name": "09-Note-Taker",
+  "name": "09-note-taker",
   "version": "1.0.0",
   "description": "# Overview      This is an application where users can create, view and delete notes using express backend. The note data are retrieved from JSON file.",
   "main": "server.js",
